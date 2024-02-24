@@ -54,7 +54,7 @@ class TestBooksCollector:
         collector.set_book_genre('Книга ужасов', 'Ужасы')
         assert len(collector.get_books_for_children()) == 3
 
-    #Проверяем метод add_book_in_favorites
+    #Проверяем метод добавления книг в избранное
     def test_add_book_in_favorites_empty_list_list_increased(self, collector):
         collector.add_new_book('Пуаро')
         collector.set_book_genre('Пуаро', 'Детективы')
