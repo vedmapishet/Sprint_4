@@ -42,7 +42,7 @@ class TestBooksCollector:
         assert collector.get_books_with_specific_genre('Ужасы') == ['Книга ужасов', 'Оно']
 
 
-    #Проверка метода get_books_for_children. Отображает книги для детей
+    #Проверка метода get_books_for_children.  Отображает книги для детей
     def test_get_books_for_children_get_list_true(self, collector):
         collector.add_new_book('Сказка на ночь')
         collector.add_new_book('Алиса что то там')
