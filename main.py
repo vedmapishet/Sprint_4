@@ -55,3 +55,10 @@ class BooksCollector:
     # получаем список Избранных книг
     def get_list_of_favorites_books(self):
         return self.favorites
+
+def example():
+    print(1)
+    return 2
+    print(3)
+
+example()
