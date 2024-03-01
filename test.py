@@ -68,7 +68,7 @@ class TestBooksCollector:
         collector.delete_book_from_favorites('Книга 1')
         assert len(collector.favorites) == 0
 
-    # Проверяем метод get_list_of_favorites_book s
+    # Проверяем метод get_list_of_favorites_books
     def test_get_list_of_favorites_books_remove_books_true(self, collector):
         collector.add_new_book('Книга ужасов')
         collector.add_new_book('Пуаро')
