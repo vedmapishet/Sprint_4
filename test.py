@@ -42,7 +42,7 @@ class TestBooksCollector:
         assert collector.get_books_with_specific_genre('Ужасы') == ['Книга ужасов', 'Оно']
 
 
-    #Проверка метода get_books_for_children. Отображает книги для детей
+    #Проверка метода get_books_for_children.  Отображает книги для детей
     def test_get_books_for_children_get_list_true(self, collector):
         collector.add_new_book('Сказка на ночь')
         collector.add_new_book('Алиса что то там')
@@ -68,7 +68,7 @@ class TestBooksCollector:
         collector.delete_book_from_favorites('Книга 1')
         assert len(collector.favorites) == 0
 
-    # Проверяем метод get_list_of_favorites_books
+    # Проверяем метод get_list_of_favorites_booksd
     def test_get_list_of_favorites_books_remove_books_true(self, collector):
         collector.add_new_book('Книга ужасов')
         collector.add_new_book('Пуаро')

@@ -33,7 +33,7 @@ class BooksCollector:
     def get_books_genre(self):
         return self.books_genre
 
-    # возвращаем книги, подходящие детям
+    # возвращаем книги, подходящие  детям
     def get_books_for_children(self):
         books_for_children = []
         for name, genre in self.books_genre.items():
@@ -52,6 +52,13 @@ class BooksCollector:
         if name in self.favorites:
             self.favorites.remove(name)
 
-    # получаем список Избранных книг
+    # получаем список Избранных книг1
     def get_list_of_favorites_books(self):
         return self.favorites
+
+def example(): # ggg
+    print(1)
+    return 2
+    print(3)
+
+example()
