@@ -56,7 +56,7 @@ class BooksCollector:
     def get_list_of_favorites_books(self):
         return self.favorites
 
-def example():
+def example(): # ggg
     print(1)
     return 2
     print(3)
