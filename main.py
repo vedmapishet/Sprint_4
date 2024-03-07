@@ -52,7 +52,7 @@ class BooksCollector:
         if name in self.favorites:
             self.favorites.remove(name)
 
-    # получаем список Избранных книг
+    # получаем список Избранных книг1
     def get_list_of_favorites_books(self):
         return self.favorites
 
